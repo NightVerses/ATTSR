@@ -26,16 +26,6 @@ pip install -r requirements.txt
 
 **Data Preparation:**
 ```bash
-
-data/
-├── train/
-│   ├── lr_dem/        # LR DEM inputs (.tif)
-│   ├── hr_img/    # HR Optical guidance images (.tif)
-│   └── gt_dem/        # Ground Truth HR DEMs (.tif)
-└── test/
-    ├── lr_dem/
-    ├── hr_optical/
-    └── gt_dem/
 data/
 ├── train/
 │   ├── img/
@@ -43,3 +33,4 @@ data/
 └── test/
     ├── img/
     └── dem/
+```
