@@ -38,4 +38,6 @@ data/
 Usage:
 Training
 ```bash
-python train.py --input_dir ./raw_data --output_dir ./data/train --patch_size 256
+python train.py --data_root ./data/Austria --save_dir ./checkpoints
+
+
