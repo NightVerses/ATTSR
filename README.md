@@ -39,5 +39,13 @@ Usage:
 Training
 ```bash
 python train.py --data_root ./data/Austria --save_dir ./checkpoints
+```
 
+Prediction
+```bash
+python predict.py \
+    --data_root ./data/Austria \
+    --model_path ./checkpoints/ATTSR.pth \
+    --save_dir ./results \
+```
 
