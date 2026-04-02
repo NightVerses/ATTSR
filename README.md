@@ -10,8 +10,6 @@
 This repository is the official PyTorch implementation of the paper **"High-Resolution Optical Satellite Image Guided DEM Super-Resolution via Topographic-Aware Transformer"** (Accepted by *IEEE Transactions on Geoscience and Remote Sensing*, 2026).
 
 
-
-
 ## 🛠 Prerequisites
 
 * Operating System: Linux / Windows
@@ -24,3 +22,17 @@ This repository is the official PyTorch implementation of the paper **"High-Reso
 conda create -n SR python=3.8
 conda activate SR
 pip install -r requirements.txt
+```
+
+**Data Preparation:**
+```bash
+
+data/
+├── train/
+│   ├── lr_dem/        # LR DEM inputs (.tif)
+│   ├── hr_img/    # HR Optical guidance images (.tif)
+│   └── gt_dem/        # Ground Truth HR DEMs (.tif)
+└── test/
+    ├── lr_dem/
+    ├── hr_optical/
+    └── gt_dem/
