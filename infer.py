@@ -13,10 +13,8 @@ from tqdm import tqdm
 
 from models.ATTSR import ATTSR
 
-
-
-
 from utils.dataset import build_test_dataloader
+
 
 DEVICE = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
