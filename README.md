@@ -34,3 +34,8 @@ data/
     ├── img/
     └── dem/
 ```
+
+Usage:
+Training
+```bash
+python train.py --input_dir ./raw_data --output_dir ./data/train --patch_size 256
