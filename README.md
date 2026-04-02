@@ -57,5 +57,6 @@ python predict.py --data_root ./data/Austria --model_path ./checkpoints/ATTSR.pt
   number={},
   pages={1-1},
   keywords={Transformers;Image reconstruction;Spatial resolution;Satellite images;Superresolution;Optical sensors;Optical imaging;Interpolation;Convolution;Analytical models;Digital elevation model (DEM);super-resolution (SR);swin transformer;topographic-aware attention;Transformer-based topography neural network (TTSR)},
-  doi={10.1109/TGRS.2026.3677203}}
+  doi={10.1109/TGRS.2026.3677203}
+}
 ```
