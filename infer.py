@@ -14,8 +14,7 @@ from tqdm import tqdm
 from models.ATTSR import ATTSR
 
 
-parser = argparse.ArgumentParser()
-args = parser.parse_args()
+
 
 from utils.dataset import build_test_dataloader
 
