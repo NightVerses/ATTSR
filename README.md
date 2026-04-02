@@ -43,6 +43,19 @@ python train.py --data_root ./data/Austria --save_dir ./checkpoints
 
 Prediction
 ```bash
-python predict.py --data_root ./data/Austria --model_path ./checkpoints/ATTSR.pth --save_dir ./results \
+python predict.py --data_root ./data/Austria --model_path ./checkpoints/ATTSR.pth --save_dir ./results
 ```
 
+📝 Citation
+```bash
+@ARTICLE{11455240,
+  author={Tang, Yubin and Yan, Enping and Xiong, Yujiu and Jiang, Jiawei and Sun, Hua and Mo, Dengkui},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={High-Resolution Optical Satellite Image Guided DEM Super-Resolution via Topographic-Aware Transformer}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Transformers;Image reconstruction;Spatial resolution;Satellite images;Superresolution;Optical sensors;Optical imaging;Interpolation;Convolution;Analytical models;Digital elevation model (DEM);super-resolution (SR);swin transformer;topographic-aware attention;Transformer-based topography neural network (TTSR)},
+  doi={10.1109/TGRS.2026.3677203}}
+```
